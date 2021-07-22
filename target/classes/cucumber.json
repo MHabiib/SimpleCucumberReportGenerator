@@ -1,0 +1,643 @@
+[
+  {
+    "line": 4,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 22933031237,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberHooks.beforeRun()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Do book hotel room",
+        "description": "",
+        "id": "booking-controller-feature;do-book-hotel-room;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 22597,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberHooks.afterRun()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 12683987396,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "[Hotel Management] prepare hotel book data request with supplier \u0027EXPEDIA\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "EXPEDIA",
+                  "offset": 66
+                }
+              ],
+              "location": "BookSteps.hotelManagementPrepareHotelBookDataRequest(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 251905444,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "[Hotel Management] send post hotel book data request",
+            "match": {
+              "location": "BookSteps.hotelManagementSendPostHotelBookDataRequest()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 886512,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "[Hotel Management] success to book hotel",
+            "match": {
+              "location": "BookSteps.hotelManagementSuccessGetHotelBookDataResponse()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TestSuiteID\u003d12665071"
+          },
+          {
+            "name": "#Positive"
+          },
+          {
+            "name": "@BookFeature"
+          },
+          {
+            "name": "@Positive"
+          },
+          {
+            "name": "@BookHotel"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 21308000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberHooks.beforeRun()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Do confirm book hotel room",
+        "description": "",
+        "id": "booking-controller-feature;do-confirm-book-hotel-room;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 16669,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberHooks.afterRun()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9484934741,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "[Hotel Management] prepare hotel confirm book data request with supplier \u0027EXPEDIA\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "EXPEDIA",
+                  "offset": 74
+                }
+              ],
+              "location": "BookSteps.hotelManagementPrepareHotelConfirmBookDataRequest(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 202277210,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "[Hotel Management] send post hotel confirm book data request",
+            "match": {
+              "location": "BookSteps.hotelManagementSendPostHotelConfirmBookDataRequest()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 281055,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "[Hotel Management] success to confirm book hotel",
+            "match": {
+              "location": "BookSteps.hotelManagementSuccessGetHotelConfirmBookDataResponse()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TestSuiteID\u003d12665071"
+          },
+          {
+            "name": "#Positive"
+          },
+          {
+            "name": "@BookFeature"
+          },
+          {
+            "name": "@Positive"
+          },
+          {
+            "name": "@ConfirmBookHotel"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 13324426,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberHooks.beforeRun()"
+            }
+          }
+        ],
+        "line": 33,
+        "name": "Do cancel book hotel room",
+        "description": "",
+        "id": "booking-controller-feature;do-cancel-book-hotel-room;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 19278,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberHooks.afterRun()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 19507781614,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "[Hotel Management] prepare hotel cancel book data request with supplier \u0027HOTELBEDS\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "HOTELBEDS",
+                  "offset": 73
+                }
+              ],
+              "location": "BookSteps.hotelManagementPrepareHotelCancelBookDataRequest(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 375149913,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "[Hotel Management] send post hotel cancel book data request",
+            "match": {
+              "location": "BookSteps.hotelManagementSendPostHotelCancelBookDataRequest()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: Book hotel response is not success\nExpected: \"SUCCESS\"\n     but: was \"ORDER_HAS_BEEN_SETTLED\"\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)\n\tat com.gdn.qa.module.api.hotel.management.steps.BookSteps.hotelManagementSuccessGetHotelCancelBookDataResponse(BookSteps.java:174)\n\tat ✽.[Hotel Management] success to cancel hotel(src/test/resources/features/Book.feature:30)\n",
+              "duration": 3211248,
+              "status": "failed"
+            },
+            "line": 30,
+            "name": "[Hotel Management] success to cancel hotel",
+            "match": {
+              "location": "BookSteps.hotelManagementSuccessGetHotelCancelBookDataResponse()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TestSuiteID\u003d12665071"
+          },
+          {
+            "name": "#Positive"
+          },
+          {
+            "name": "@BookFeature"
+          },
+          {
+            "name": "@Positive"
+          },
+          {
+            "name": "@CancelBookHotel"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Booking Controller Feature",
+    "description": "",
+    "id": "booking-controller-feature",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/Book.feature",
+    "tags": [
+      {
+        "name": "@TestSuiteID\u003d12665071",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "#Positive",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 23
+        }
+      },
+      {
+        "name": "@BookFeature",
+        "type": "Tag",
+        "location": {
+          "line": 3,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 12690728,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberHooks.beforeRun()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "calculate Insurance",
+        "description": "",
+        "id": "insurance--controller-feature;calculate-insurance",
+        "after": [
+          {
+            "result": {
+              "duration": 19056,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberHooks.afterRun()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4062181617,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "[Hotel Management] prepare calculateInsuranceData request",
+            "match": {
+              "location": "InsuranceSteps.prepareCalculateInsuranceRequest()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 362106632,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "[Hotel Management] send calculateInsuranceData request",
+            "match": {
+              "location": "InsuranceSteps.sendCalulculateInsuranceRequest()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10639981343,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "[Hotel Management] get calculateInsuranceData response and code should be \u0027SUCCESS\u0027 and message should be equal to \u0027Success\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "SUCCESS",
+                  "offset": 75
+                },
+                {
+                  "val": "Success",
+                  "offset": 116
+                }
+              ],
+              "location": "InsuranceSteps.validateCalculateInsuranceResponse(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TestSuiteID\u003d12665071"
+          },
+          {
+            "name": "@InsuranceFeature"
+          },
+          {
+            "name": "@Positive"
+          },
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@calculateInsuranceData"
+          },
+          {
+            "name": "@Insurance"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 11509330,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberHooks.beforeRun()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "create Insurance Transaction",
+        "description": "",
+        "id": "insurance--controller-feature;create-insurance-transaction",
+        "after": [
+          {
+            "result": {
+              "duration": 25109,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberHooks.afterRun()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12203046662,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "[Hotel Management] prepare createInsuranceTransaction request",
+            "match": {
+              "location": "InsuranceSteps.prepareCreateInsuranceTransactionRequest()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 333869185,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "[Hotel Management] send createInsuranceTransaction request",
+            "match": {
+              "location": "InsuranceSteps.sendCreateInsuranceTransactionRequest()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 279266,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "[Hotel Management] get createInsuranceTransaction response and code should be \u0027SUCCESS\u0027 and message should be equal to \u0027Success\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "SUCCESS",
+                  "offset": 79
+                },
+                {
+                  "val": "Success",
+                  "offset": 120
+                }
+              ],
+              "location": "InsuranceSteps.validateCreateInsuranceTransactionResponse(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TestSuiteID\u003d12665071"
+          },
+          {
+            "name": "@InsuranceFeature"
+          },
+          {
+            "name": "@Positive"
+          },
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@createInsuranceTransaction"
+          },
+          {
+            "name": "@Insurance"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 14690876,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberHooks.beforeRun()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Re-Issue Insurance",
+        "description": "",
+        "id": "insurance--controller-feature;re-issue-insurance",
+        "after": [
+          {
+            "result": {
+              "duration": 19154,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberHooks.afterRun()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12868927585,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "[Hotel Management] prepare reissue insurance provider request",
+            "match": {
+              "location": "InsuranceSteps.prepareReissueRequest()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 200818178,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "[Hotel Management] send reissue insurance provider request",
+            "match": {
+              "location": "InsuranceSteps.sendReissueRequest()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 288224,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "[Hotel Management] get reissue insurance provider response and code should be \u0027SUCCESS\u0027 and message should be equal to \u0027Success\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "SUCCESS",
+                  "offset": 79
+                },
+                {
+                  "val": "Success",
+                  "offset": 120
+                }
+              ],
+              "location": "InsuranceSteps.validateReissueResponse(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TestSuiteID\u003d12665071"
+          },
+          {
+            "name": "@InsuranceFeature"
+          },
+          {
+            "name": "@Positive"
+          },
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@reIssueInsurance"
+          },
+          {
+            "name": "@Insurance"
+          }
+        ]
+      }
+    ],
+    "name": "Insurance  Controller Feature",
+    "description": "",
+    "id": "insurance--controller-feature",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/Insurance.feature",
+    "tags": [
+      {
+        "name": "@TestSuiteID\u003d12665071",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@InsuranceFeature",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
